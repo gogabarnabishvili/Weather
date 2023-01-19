@@ -58,6 +58,7 @@ header div {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .leftBox {
@@ -70,6 +71,7 @@ header div {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    display: flex;
 }
 
 .moreInfo {
@@ -79,6 +81,7 @@ header div {
     align-items: flex-end;
     justify-content: center;
     gap: 2px;
+    display: flex;
 }
 
 .moreInfo div {
@@ -95,19 +98,27 @@ header div {
     height: 79px;
     border-radius: 12px;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .cytiName h2 {
     margin-bottom: 20px;
 }
 
-.sytyBox {
+.cytyBox {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .midelBox h2 {
     font-size: 100px;
 }
+
+
+/* .cytiName {
+    display: flex;
+} */
 
 .midelBox h2,
 .cytiName h2 {
@@ -118,10 +129,12 @@ header div {
     margin-left: -15px;
 }
 
-.moreInfoWraper div {
+.moreInfoWraperDiv {
+    display: flex;
     width: 45%;
     justify-content: space-evenly;
     text-align: start;
+    align-items: center;
 }
 
 .moreInfoWraper .smollLIne {
@@ -159,6 +172,10 @@ header div {
 .addNewLocation a {
     color: #fff;
     font-size: 24px;
+}
+
+.displaNone {
+    display: none;
 }
 
 
